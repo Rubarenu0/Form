@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+            width: 300px;
+            height: 480px;
+            border-radius: 50px;
+            padding-left: 100px;
+            margin-left: 450px;
+           margin-top: 50px;
+           box-shadow: 8px 8px 8px 8px black;
+        }
+        .in{
+            border-radius: 10px; 
+            height: 20px;
+            background-color: transparent;
+           
+        }
+        body{
+            background-image: url("https://png.pngtree.com/background/20230603/original/pngtree-morning-sunlight-on-grass-and-flowers-field-beautiful-nature-landscape-background-picture-image_2869698.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .in:hover{
+            cursor: pointer;
+            background-color: powderblue;
+        }
+        .out:hover{
+            cursor: pointer;
+            background-color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="https://www.pexels.com/search/instagram/">
+    <h1 ><b><i>Instagram</i></b></h1>
+   
+   <h1 style="font-style: italic;">Sign up</h1>
+   <input type="email" name="mobno" placeholder="Mobile No or email id" style="border-radius: 10px; height: 20px; background-color: transparent;" class="out" required><br><br>
+   <input type="text" name="fn" placeholder="Full Name" class="in"><br><br>
+   <input type="text" name="un" placeholder="Username" class="in" required><br><br>
+   <input type="password" name="psw" placeholder="Password" class="in" required><br><br>
+   <input type="date" name="dob" class="in" ><br><br>
+   <input type="radio" name="gender" id="M">
+   <label for="M">Male</label>
+   <input type="radio" name="gender" id="F" checked>
+   <label for="F">Female</label>
+   <input type="radio" name="gender" id="O">
+   <label for="O">Others</label><br><br>
+   <input type="submit" value="Sign up" class="in">
+</form>
+</div>
+</body>
+</html>
